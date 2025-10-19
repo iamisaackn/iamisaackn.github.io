@@ -8,9 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist is ignored globally, but we want to keep the built version for the portfolio only
+!portfolio/dist
 dist-ssr
 *.local
+
 
 # Editor directories and files
 .vscode/*
