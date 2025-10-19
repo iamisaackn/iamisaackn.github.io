@@ -5,59 +5,33 @@ import { GraduationCap, Award } from "lucide-react";
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Data Science",
-      institution: "University of Nairobi",
-      location: "Nairobi, Kenya",
-      period: "2020 - 2022",
-      description: "Focus on Machine Learning, Statistical Modeling, and Big Data Analytics",
-      achievements: [
-        "Graduated with Distinction (GPA: 3.9/4.0)",
-        "Thesis: 'Predictive Analytics for Agricultural Yield Optimization'",
-        "Teaching Assistant for Advanced Statistics course",
-      ],
-    },
-    {
       degree: "Bachelor of Science in Computer Science",
-      institution: "Jomo Kenyatta University of Agriculture and Technology",
+      institution: "The Catholic University of Eastern Africa",
       location: "Nairobi, Kenya",
-      period: "2015 - 2019",
-      description: "Specialization in Artificial Intelligence and Data Structures",
+      period: "Sept 2022 - Oct 2026",
+      description: "Focus on Data Science and Big Data Security",
       achievements: [
-        "First Class Honours",
-        "President's List for Academic Excellence (4 semesters)",
-        "Led university AI club organizing 5 workshops",
+        "Led CUEA team in KAPS/Inter University Hackathon 2024 winning 1st runners up in AI in Business",
       ],
-    },
+    }
   ];
 
   const certifications = [
     {
-      name: "AWS Certified Machine Learning - Specialty",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-ML-2023-XYZ",
-    },
-    {
-      name: "TensorFlow Developer Certificate",
-      issuer: "TensorFlow",
-      date: "2022",
-      credentialId: "TF-DEV-2022-ABC",
-    },
-    {
       name: "Data Science Professional Certificate",
       issuer: "IBM",
-      date: "2021",
-      credentialId: "IBM-DS-2021-123",
-    },
+      date: "On going",
+      credentialId: " ",
+    }
   ];
 
   const scholarships = [
     {
       name: "MasterCard Foundation Scholarship",
       organization: "Moringa School",
-      period: "2020 - 2022",
+      period: "May 2024 - Nov 2024",
       description:
-        "Full scholarship covering tuition, living expenses, and mentorship for advanced data science training",
+        "Scholarship covering tuition and mentorship for advanced data science training",
     },
   ];
 

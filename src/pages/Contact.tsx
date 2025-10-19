@@ -107,7 +107,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <CardTitle className="text-lg">Email</CardTitle>
-                    <CardDescription>isaac.ngugi@example.com</CardDescription>
+                    <CardDescription>isaackngugi.ds@gmail.com</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -121,7 +121,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <CardTitle className="text-lg">Phone</CardTitle>
-                    <CardDescription>+254 712 345 678</CardDescription>
+                    <CardDescription>+254 111 905855</CardDescription>
                   </div>
                 </div>
               </CardHeader>

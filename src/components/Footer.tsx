@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -42,7 +42,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/iamisaackn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-smooth"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/isaackngugi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-smooth"
@@ -60,20 +60,29 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:isaac@example.com"
+                href="mailto:isaackngugi.ds@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-smooth"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/itsisaackngugi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-smooth"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
+              </a>
+              <a
+                  href="https://www.facebook.com/iamisaackn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-smooth"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>

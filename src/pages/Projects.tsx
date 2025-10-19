@@ -19,54 +19,165 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      title: "Agricultural Yield Prediction System",
-      region: "East Africa",
-      goal: "Predict crop yields to help farmers optimize planting decisions and reduce waste",
+    title: "Heart Failure Analysis and Prediction",
+    region: "Global Healthcare Datasets",
+    goal: "Predict heart failure risk based on patient medical records.",
+    methodology:
+      "Performed data preprocessing (cleaning, analysis, visualization), correlation assessment, and machine learning model development using Python. Applied statistical and ML techniques to predict early signs of heart failure.",
+    outcome:
+      "Improved early detection of heart failure risk, enabling proactive and data-driven healthcare interventions.",
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+    category: "Healthcare Analytics",
+    },
+    {
+      title: "Thyroid Risk Analysis and Prediction",
+      region: "Medical Datasets",
+      goal:
+        "Identify individuals at high risk of thyroid disorders using predictive modeling and data analysis.",
       methodology:
-        "Developed ensemble machine learning models using Random Forest and XGBoost, incorporating weather patterns, soil quality data, and historical yields. Deployed as REST API on AWS.",
-      outcome: "Achieved 89% prediction accuracy, helping 500+ farmers increase productivity by 25%",
-      technologies: ["Python", "Scikit-learn", "XGBoost", "AWS", "FastAPI"],
+        "Conducted data cleaning, statistical analysis of thyroid markers, and developed machine learning classification models for risk prediction and pattern detection.",
+      outcome:
+        "Enhanced diagnostic accuracy and optimized patient treatment recommendations through predictive insights.",
+      technologies: ["Python", "R", "Scikit-learn", "XGBoost", "Seaborn"],
+      category: "Medical Data Science",
+    },
+    {
+      title: "Fleet Management Systems (FMS): A Case Study of Verizon Connect in Health",
+      region: "Kenya",
+      goal:
+        "Enhance healthcare logistics by improving emergency response, patient monitoring, route optimization, driver behavior, and resource allocation.",
+      methodology:
+        "Conducted a detailed case study on Verizon Connect, evaluating its impact on healthcare logistics through data collection, performance assessments, and stakeholder feedback.",
+      outcome:
+        "Improved healthcare delivery efficiency, cost optimization, and infrastructure readiness while addressing challenges in training, system adoption, and operational costs.",
+      technologies: ["SQL", "Power BI", "Tableau", "Python"],
+      category: "Data Analytics & Logistics",
+    },
+    {
+      title: "InsightsAI (Intelligent Business Document Analysis Tool)",
+      region: "AI, Natural Language Processing (NLP), Business Intelligence",
+      goal:
+        "Build an AI-powered assistant that extracts actionable business insights from uploaded documents using natural language queries.",
+      methodology:
+        "Integrated LangChain, HuggingFace Embeddings, and FAISS vector databases to enable context-based document retrieval. Used Groq LLaMA models for question answering within a Streamlit interface.",
+      outcome:
+        "A fully functional web app that allows business users to query operational data in plain English, generating concise, actionable insights without manual analysis.",
+      technologies: ["Python", "LangChain", "FAISS", "HuggingFace", "Streamlit", "Groq LLaMA"],
+      category: "Artificial Intelligence",
+    },
+    {
+      title: "ChatDoc (Context Aware Document QA Chatbot)",
+      region: "Artificial Intelligence, Natural Language Processing (NLP), Software Engineering",
+      goal:
+        "Develop an interactive chatbot capable of answering user queries based on uploaded or stored business documents using contextual understanding.",
+      methodology:
+        "Implemented LangChain with HuggingFace Embeddings for text vectorization and FAISS for similarity search; integrated Groq LLaMA large language model within a Streamlit interface to deliver real-time, accurate document-based responses.",
+      outcome:
+        "A functional web chatbot that retrieves and summarizes relevant document information, improving business insight extraction and decision efficiency.",
+      technologies: ["Python", "LangChain", "FAISS", "Groq LLaMA", "Streamlit", "HuggingFace"],
       category: "Machine Learning",
     },
     {
-      title: "Customer Churn Prediction Platform",
-      region: "Kenya",
-      goal: "Identify at-risk customers before they leave to enable proactive retention strategies",
-      methodology:
-        "Built deep learning classifier using TensorFlow with feature engineering pipeline. Implemented real-time scoring system processing 10K predictions/hour.",
-      outcome: "Reduced churn rate by 35%, saving $2M annually in customer retention costs",
-      technologies: ["TensorFlow", "Python", "PostgreSQL", "Docker", "Kubernetes"],
-      category: "Deep Learning",
+    title: "Real Estate Management System",
+    region: "Software Engineering, Database Design, Business Analytics",
+    goal:
+      "Develop an advanced relational database system to manage client relationships, property listings, transactions, and real estate market analytics.",
+    methodology:
+      "Designed SQL schemas for entities such as properties, tenants, leases, and payments. Implemented CRUD operations, aggregation queries, joins, subqueries, and reporting analytics. Integrated GIS mapping, automated workflows, and data security auditing.",
+    outcome:
+      "Delivered a secure, automated database management system that optimizes property tracking, improves operational efficiency, and enables data-driven decision-making for real estate businesses.",
+    technologies: ["MySQL", "SQL", "Advanced SQL", "Power BI", "VS Code", "Git"],
+    category: "Database Systems",
     },
     {
-      title: "Real-Time Fraud Detection System",
-      region: "Sub-Saharan Africa",
-      goal: "Detect fraudulent transactions in mobile money platforms within milliseconds",
+      title: "Seed Bank Management System",
+      region: "Agriculture Technology, Database Systems",
+      goal:
+        "Build a database-driven web system to manage seed inventory, institutions, testing, transactions, and storage with secure administrative workflows.",
       methodology:
-        "Designed anomaly detection system using Isolation Forest and LSTM networks. Processed streaming data using Apache Kafka and Spark.",
-      outcome: "Identified 94% of fraud cases with <0.5% false positive rate, protecting $10M in transactions",
-      technologies: ["Apache Spark", "Kafka", "PyTorch", "Redis", "AWS"],
-      category: "Anomaly Detection",
+        "Developed backend SQL scripts for views, stored procedures, and permission management. Implemented PHP-based web interfaces for administrators and users to manage data efficiently. Included aggregation functions, case statements, and advanced SQL queries for insights.",
+      outcome:
+        "A centralized system that streamlines agricultural data management, enhances transparency in seed distribution, and supports efficient tracking of institutional transactions.",
+      technologies: ["MySQL", "PHP", "HTML", "CSS", "SQL", "JavaScript"],
+      category: "Database Management & Web Systems",
     },
     {
-      title: "Sentiment Analysis Dashboard",
-      region: "Pan-African",
-      goal: "Analyze social media sentiment about brands across multiple African markets",
-      methodology:
-        "Fine-tuned BERT model for sentiment classification. Built interactive dashboard using Streamlit and deployed on Azure.",
-      outcome: "Processed 100K+ posts daily, providing actionable insights to marketing teams",
-      technologies: ["BERT", "Transformers", "Streamlit", "Azure", "MongoDB"],
-      category: "NLP",
+    title: "AI-Fashion-Image-Classification",
+    region: "Global Fashion Industry, E-commerce, AI Research",
+    goal:
+      "Develop an AI model capable of classifying clothing items to enhance design, marketing, and customer experience in fashion e-commerce.",
+    methodology:
+      "Used the Fashion-MNIST dataset with a Convolutional Neural Network (CNN) model. Preprocessed images, trained and validated using accuracy, precision, recall, and F1-score metrics. Deployed model for real-time classification and feedback integration.",
+    outcome:
+      "Achieved 90% accuracy across multiple fashion categories. Identified improvement areas for better precision using advanced architectures and real-time deployment feedback.",
+    technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Scikit-learn", "Streamlit"],
+    category: "Computer Vision & Deep Learning",
     },
     {
-      title: "Supply Chain Optimization Engine",
-      region: "Kenya & Tanzania",
-      goal: "Optimize logistics routes and inventory levels to reduce costs and delivery times",
+      title: "AI-Driven Plant Disease Detection System (PlantPatrol)",
+      region: "Agriculture, Climate Change, and Food Security",
+      goal:
+        "Develop an AI-based image recognition system to detect plant diseases in real time and support farmers with accessible diagnostic tools.",
       methodology:
-        "Applied linear programming and reinforcement learning for route optimization. Integrated with existing ERP systems.",
-      outcome: "Decreased delivery times by 40% and reduced logistics costs by $500K annually",
-      technologies: ["Python", "OR-Tools", "Ray RLlib", "PostgreSQL"],
-      category: "Optimization",
+        "Trained Convolutional Neural Networks (CNNs) on plant leaf images to classify diseases. Developed a WhatsApp chatbot for accessibility. Integrated Grad-CAM for explainability and conducted cross-validation for robust results.",
+      outcome:
+        "Achieved 95% accuracy in plant disease classification. Empowered farmers through real-time disease detection, reduced pesticide reliance, and improved food security outcomes.",
+      technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Streamlit", "WhatsApp API"],
+      category: "Agricultural AI & Image Recognition",
+    },
+    {
+      title: "Box Office Movies Analysis: EDA and Linear Regression Project",
+      region: "Entertainment & Business Analytics",
+      goal:
+        "Analyze global box office movie data to identify factors influencing film success and develop data-driven recommendations for a new movie studio.",
+      methodology:
+        "Performed Exploratory Data Analysis (EDA), statistical tests, and built linear regression models to predict box office revenue. Investigated variables like production budget, genre, and release timing using Python, Pandas, and Matplotlib.",
+      outcome:
+        "Identified that Drama and Documentary genres yield the highest ratings, and summer/holiday releases generate peak profits. Built predictive models achieving 0.50 R², guiding strategic film production and release decisions.",
+      technologies: [
+        "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Tableau", "Jupyter Notebook",
+      ],
+      category: "Data Analysis & Predictive Modeling",
+    },
+    {
+      title: "Predictive Analytics for Waterpoint Operational Status in Tanzania",
+      region: "Water Resource Management & Public Infrastructure",
+      goal:
+        "Develop a predictive model to classify the operational status of waterpoints in Tanzania, enabling proactive maintenance and improved access to clean water.",
+      methodology:
+        "Applied machine learning classification algorithms (Logistic Regression, Decision Trees, Random Forest) on a dataset of waterpoint attributes. Conducted extensive preprocessing, feature engineering, and model evaluation using ROC-AUC and confusion matrices for performance validation.",
+      outcome:
+        "Achieved high predictive accuracy in identifying functional, repair-needed, and non-functional waterpoints. Provided actionable insights for the Tanzanian Ministry of Water and NGOs to prioritize maintenance and resource allocation.",
+      technologies: [
+        "Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter Notebook", "Random Forest", "Logistic Regression"
+      ],
+      category: "Predictive Analytics & Water Resource Optimization",
+    },
+    {
+      title: "Twitter Sentiment Analysis",
+      region: "Social Media Analytics & NLP",
+      goal:
+        "Develop a Natural Language Processing (NLP) model to analyze public sentiment from Tweets about Apple and Google products, enabling data-driven marketing and product decisions.",
+      methodology:
+        "Cleaned and preprocessed over 9,000 Tweets from CrowdFlower. Applied TF-IDF vectorization and lemmatization for text normalization. Trained multiple classification models including Logistic Regression, Naive Bayes, and Random Forest. Evaluated using cross-validation, accuracy, precision, recall, and F1-score metrics. Used LIME for explainability to interpret individual predictions.",
+      outcome:
+        "Achieved 86.7% accuracy using Logistic Regression. Identified key sentiment indicators and class imbalances in user feedback. Provided actionable insights for improving customer satisfaction and brand strategies.",
+      technologies: ["Python", "Scikit-learn", "NLTK", "TF-IDF", "Pandas", "Matplotlib", "LIME"],
+      category: "Natural Language Processing & Sentiment Analysis",
+    },
+    {
+      title: "Company Management System",
+      region: "Business and Enterprise Solutions",
+      goal:
+        "Develop a full-stack company management system to streamline employee, department, and project management using a database-driven architecture.",
+      methodology:
+        "Configured MySQL Workbench and XAMPP for local database setup. Built and migrated database schemas using Entity Framework (EF) Core. Developed the application in C# with .NET, integrating HTML, CSS, and JavaScript for the frontend. Ensured smooth deployment and debugging using Visual Studio.",
+      outcome:
+        "Successfully implemented a scalable company management system with efficient CRUD operations and data persistence. Improved business data organization and automated internal management processes.",
+      technologies: [
+        "C#", ".NET", "Entity Framework Core", "MySQL", "XAMPP", "Visual Studio", "HTML", "CSS", "JavaScript"
+      ],
+      category: "Enterprise Software & Database Systems",
     },
   ];
 

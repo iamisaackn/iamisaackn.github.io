@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, Facebook, MapPin } from "lucide-react";
 import profileImage from "@/assets/isaac-profile.jpg";
 
 const Profile = () => {
@@ -28,22 +28,34 @@ const Profile = () => {
                 "Turning raw data into intelligent decisions."
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="mailto:isaac@example.com">
+                <a href="mailto:isaackngugi.ds@gmail.com">
                   <Button className="gradient-primary">
                     <Mail className="mr-2 h-4 w-4" />
                     Get in Touch
                   </Button>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/isaackngugi/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline">
                     <Linkedin className="mr-2 h-4 w-4" />
                     LinkedIn
                   </Button>
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/iamisaackn" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline">
                     <Github className="mr-2 h-4 w-4" />
                     GitHub
+                  </Button>
+                </a>
+                <a href="https://x.com/itsisaackngugi" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline">
+                      <Twitter className="mr-2 h-4 w-4" />
+                      Twitter
+                  </Button>
+                </a>
+                <a href="https://www.facebook.com/iamisaackn" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline">
+                      <Facebook className="mr-2 h-4 w-4" />
+                      Facebook
                   </Button>
                 </a>
               </div>
@@ -94,11 +106,11 @@ const Profile = () => {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
+              <div className="text-4xl font-bold text-primary mb-2">2+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">20+</div>
+              <div className="text-4xl font-bold text-primary mb-2">15+</div>
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -106,7 +118,7 @@ const Profile = () => {
               <div className="text-sm text-muted-foreground">Technologies</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">3</div>
+              <div className="text-4xl font-bold text-primary mb-2">2</div>
               <div className="text-sm text-muted-foreground">Certifications</div>
             </div>
           </div>
