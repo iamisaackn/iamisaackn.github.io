@@ -7,8 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
+  // Navigation items including Services
   const navItems = [
     { name: "Home", path: "/" },
+    { name: "Services", path: "/services" },
     { name: "Experience", path: "/experience" },
     { name: "Education", path: "/education" },
     { name: "Projects", path: "/projects" },
@@ -22,6 +24,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-soft">
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
+          {/* Brand */}
           <Link to="/" className="flex items-center space-x-2">
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Isaac K. Ngugi
@@ -45,7 +48,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Toggle */}
           <button
             className="md:hidden p-2"
             onClick={() => setIsOpen(!isOpen)}
@@ -55,7 +58,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation Menu */}
         {isOpen && (
           <div className="md:hidden py-4 animate-fade-in">
             {navItems.map((item) => (
