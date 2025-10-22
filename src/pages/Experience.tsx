@@ -47,13 +47,13 @@ const Experience = () => {
     technical: [
     "Data Analysis & Visualization: Excel, Power BI, Tableau, Google Data Studio, Python (Pandas, NumPy, Matplotlib, Seaborn), R",
     "Database Management: SQL, NoSQL, PostgreSQL, MySQL, MongoDB, Oracle, SQLite, Data Warehousing, ETL, dbt, Apache Airflow",
-    "Programming & Development: Python, R, JavaScript, Bash, REST APIs, FastAPI, Flask, Django, Microservices, Git, GitHub Actions, CI/CD",
-    "Machine Learning & Statistics: Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost, LightGBM, CatBoost, Statsmodels, Predictive Modeling, A/B Testing",
+    "Programming & Development: Python, R, JavaScript, Bash, REST APIs, FastAPI, Microservices, Git, GitHub Actions",
+    "Machine Learning & Statistics: Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost, LightGBM, Statsmodels, Predictive Modeling, A/B Testing",
     "AI & Deep Learning: NLP (SpaCy, NLTK, HuggingFace), LangChain, Vector Databases (FAISS, Pinecone, Chroma), Generative AI, LLMs, Prompt Engineering, AI Agents, RAG, AI Chatbots, AI PDF Readers, MCP Systems",
     "Big Data & Cloud: Apache Spark, Hadoop, Databricks, Snowflake, BigQuery, AWS, Azure, GCP, Docker, Kubernetes, Cloud-Native Architecture, Streaming Data (Kafka, Flink)",
     "MLOps & Deployment: MLflow, Weights & Biases, Model Deployment, Feature Engineering, Experiment Tracking, Version Control for ML, AIOps",
     "Data Governance & Security: Data Modeling, Data Cleaning, Data Wrangling, Data Pipelines, Data Ethics, Privacy Compliance (GDPR/ISO), Data Security",
-    "Specializations: Computer Vision, Reinforcement Learning, Predictive Analytics, Business Intelligence, Automation, Decision Support Systems"
+    "Specializations: Reinforcement Learning, Predictive Analytics, Business Intelligence, Automation, Decision Support Systems"
     ],
     soft: [
       "Leadership: Guides and motivates technical teams to deliver results under tight deadlines.",
@@ -75,9 +75,9 @@ const Experience = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl mb-4">Work Experience</h1>
+          <h1 className="text-4xl md:text-5xl mb-4">Experience That Drives Results</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A track record of delivering data-driven solutions across industries
+            Every role has sharpened how I turn data into growth engines from startups to fintech.
           </p>
         </div>
 
@@ -129,7 +129,7 @@ const Experience = () => {
               <CardHeader>
                 <CardTitle className="text-2xl">Technical Skills</CardTitle>
                 <CardDescription>
-                  Tools and technologies I work with daily
+                  Technology is how I execute strategy — these are my core tools.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -148,7 +148,7 @@ const Experience = () => {
               <CardHeader>
                 <CardTitle className="text-2xl">Soft Skills</CardTitle>
                 <CardDescription>
-                  Interpersonal strengths that drive success
+                  How I think, lead, and collaborate.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -163,6 +163,12 @@ const Experience = () => {
             </Card>
           </div>
         </div>
+
+        {/* Closing Section */}
+        <div className="text-center mt-20 text-lg text-muted-foreground italic">
+          Your business already has the data. I’ll help you use it to grow faster, smarter, and stronger.
+        </div>
+
       </div>
     </div>
   );

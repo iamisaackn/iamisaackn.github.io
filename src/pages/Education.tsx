@@ -9,9 +9,10 @@ const Education = () => {
       institution: "The Catholic University of Eastern Africa",
       location: "Nairobi, Kenya",
       period: "Sept 2022 - Oct 2026",
-      description: "Focus on Data Science and Big Data Security",
+      description: "Focused on Data Science, Big Data Security, and Applied Machine Learning — training to turn technical systems into business growth engines.",
       achievements: [
-        "Led CUEA team in KAPS/Inter University Hackathon 2024 winning 1st runners up in AI in Business",
+        "Led CUEA team in KAPS/Inter-University Hackathon 2024, winning 1st Runners-Up for 'AI in Business' innovation.",
+        "Developed data-driven models to predict sales and customer churn in simulated SME case studies.",
       ],
     }
   ];
@@ -31,7 +32,7 @@ const Education = () => {
       organization: "Moringa School",
       period: "May 2024 - Nov 2024",
       description:
-        "Scholarship covering tuition and mentorship for advanced data science training",
+        "Awarded for academic excellence and innovation potential in Data Science, with advanced training on real-world data projects for African SMEs."
     },
   ];
 
@@ -42,11 +43,11 @@ const Education = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl mb-4">Education & Certifications</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Academic foundation and continuous learning journey
+            The foundation behind my mission to help SMEs grow through data-driven solutions.
           </p>
         </div>
 
-        {/* Education Timeline */}
+        {/* Academic Background */}
         <div className="max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl mb-8">Academic Background</h2>
           <div className="space-y-8">

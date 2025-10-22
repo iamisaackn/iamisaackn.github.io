@@ -36,9 +36,9 @@ const Contact = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl mb-4">Get In Touch</h1>
+          <h1 className="text-4xl md:text-5xl mb-4">Let’s Build Data-Driven Growth Together</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Let's discuss how data-driven solutions can transform your business
+            I bridge the gap between raw data and real business impact. Let’s turn your data into strategy, insights, and growth.
           </p>
         </div>
 
@@ -46,19 +46,21 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="shadow-large animate-fade-in-up">
             <CardHeader>
-              <CardTitle className="text-2xl">Send a Message</CardTitle>
-              <CardDescription>Fill out the form and I'll respond within 24 hours</CardDescription>
+              <CardTitle className="text-2xl">Let’s Talk Business</CardTitle>
+              <CardDescription>Share your challenge, I’ll reply within 24 hours.</CardDescription>
             </CardHeader>
             <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form 
+                action="https://formspree.io/f/xpwygwvz"
+                method="POST"
+                className="space-y-6"
+              >
                 <div className="space-y-2">
                   <Label htmlFor="name">Name</Label>
                   <Input
                     id="name"
                     name="name"
                     placeholder="Your full name"
-                    value={formData.name}
-                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -70,8 +72,6 @@ const Contact = () => {
                     name="email"
                     type="email"
                     placeholder="your.email@example.com"
-                    value={formData.email}
-                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -81,9 +81,7 @@ const Contact = () => {
                   <Textarea
                     id="message"
                     name="message"
-                    placeholder="Tell me about your project or inquiry..."
-                    value={formData.message}
-                    onChange={handleChange}
+                    placeholder="Describe your project or problem.."
                     rows={6}
                     required
                   />
@@ -95,6 +93,7 @@ const Contact = () => {
                 </Button>
               </form>
             </CardContent>
+
           </Card>
 
           {/* Contact Information */}
@@ -107,12 +106,20 @@ const Contact = () => {
                   </div>
                   <div>
                     <CardTitle className="text-lg">Email</CardTitle>
-                    <CardDescription>isaackngugi.ds@gmail.com</CardDescription>
+                    <CardDescription>
+                      <a
+                        href="mailto:isaackngugi.ds@gmail.com"
+                        className="text-primary hover:underline"
+                      >
+                        isaackngugi.ds@gmail.com
+                      </a>
+                    </CardDescription>
                   </div>
                 </div>
               </CardHeader>
             </Card>
 
+            {/*Phone*/}
             <Card className="shadow-medium hover-lift transition-smooth">
               <CardHeader>
                 <div className="flex items-center gap-3">
@@ -121,12 +128,17 @@ const Contact = () => {
                   </div>
                   <div>
                     <CardTitle className="text-lg">Phone</CardTitle>
-                    <CardDescription>+254 111 905855</CardDescription>
+                    <CardDescription>
+                      <a href="tel:+254111905855" className="text-primary hover:underline">
+                        +254 111 905855
+                      </a>
+                    </CardDescription>
                   </div>
                 </div>
               </CardHeader>
             </Card>
 
+            {/*Location*/}
             <Card className="shadow-medium hover-lift transition-smooth">
               <CardHeader>
                 <div className="flex items-center gap-3">
@@ -146,9 +158,9 @@ const Contact = () => {
               <CardContent className="pt-6">
                 <h3 className="font-semibold mb-2 text-lg">Availability</h3>
                 <p className="text-sm opacity-90">
-                  I'm currently available for freelance projects and consulting opportunities.
-                  Whether you need data analysis, machine learning solutions, or AI strategy
-                  consulting, I'd love to hear from you.
+                  I’m currently open for consulting, partnerships, and freelance projects. 
+                  Whether you need a data analyst to uncover insights, a data scientist to build predictive models, 
+                  or an AI engineer to automate processes. I help SMEs make smarter, faster decisions through data.
                 </p>
               </CardContent>
             </Card>

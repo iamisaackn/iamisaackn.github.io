@@ -22,10 +22,10 @@ const Profile = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-                Data Analyst | Data Scientist | AI Engineer
+                Data & AI Consultant | Business Growth Partner
               </p>
               <p className="text-lg text-foreground/80 mb-8 max-w-xl italic">
-                "Turning raw data into intelligent decisions."
+                I help SMEs turn messy data into smarter strategies, stronger sales, and scalable growth.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="mailto:isaackngugi.ds@gmail.com">
@@ -81,20 +81,48 @@ const Profile = () => {
             <h2 className="text-3xl md:text-4xl mb-6 text-center">About Me</h2>
             <div className="space-y-4 text-lg text-foreground/80">
               <p>
-                I am a curious and analytical Data Scientist with a passion for uncovering insights
-                hidden within complex datasets. My expertise spans the full spectrum of data science,
-                from exploratory analysis to deploying production-ready machine learning models.
+                I bridge the gap between raw data and business growth. My work focuses on transforming numbers
+                into narratives that drive better marketing, smarter operations, and confident decisions.
               </p>
               <p>
-                With strong foundations in algorithms, statistical modeling, and cloud computing, I
-                thrive on solving real-world problems through data-driven solutions. My work focuses
-                on building intelligent systems that transform raw information into actionable
-                strategies for business growth and innovation.
+                Whether it’s predicting customer churn, automating reporting, or building AI tools that 
+                forecast sales, I help SMEs grow through data intelligence — not guesswork.
               </p>
               <p>
-                Beyond technical skills, I bring leadership, clear communication, and collaborative
-                problem-solving to every project. I'm constantly learning and adapting to emerging
-                technologies in AI and data engineering.
+                I blend technical precision with strategic insight, working side-by-side with business teams
+                to design practical, results-oriented data solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-muted">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl mb-10 text-center">How I Help Businesses Grow</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div className="p-6 rounded-2xl shadow-sm hover-lift bg-background">
+              <h3 className="text-xl font-semibold mb-2">Customer Insights</h3>
+              <p className="text-muted-foreground text-sm">
+                Use data to understand customer behavior, refine targeting, and boost conversions.
+              </p>
+            </div>
+            <div className="p-6 rounded-2xl shadow-sm hover-lift bg-background">
+              <h3 className="text-xl font-semibold mb-2">Operational Efficiency</h3>
+              <p className="text-muted-foreground text-sm">
+                Automate repetitive processes and predict issues before they hit profits.
+              </p>
+            </div>
+            <div className="p-6 rounded-2xl shadow-sm hover-lift bg-background">
+              <h3 className="text-xl font-semibold mb-2">Smarter Financial Planning</h3>
+              <p className="text-muted-foreground text-sm">
+                Build AI-driven forecasts and models that guide better investment and budget decisions.
+              </p>
+            </div>
+            <div className="p-6 rounded-2xl shadow-sm hover-lift bg-background">
+              <h3 className="text-xl font-semibold mb-2">Innovation & AI Tools</h3>
+              <p className="text-muted-foreground text-sm">
+                Develop custom AI tools that help SMEs stay competitive in fast-changing markets.
               </p>
             </div>
           </div>

@@ -16,7 +16,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/dear-ceos-math-isnt-enemy-its-blueprint-ai-isaac-ngugi-3ya8f/?trackingId=yuvO0WB4RkKjapWi0C7dpw%3D%3D",
     },
     {
-      title: "CEO:s How Walmart Used Hadoop and AI to Reinvent Retail Analytics!!",
+      title: "Dear CEOs: How Walmart Used Hadoop and AI to Reinvent Retail Analytics!!",
       description:
         "An in-depth look at how Walmart leveraged Hadoop, AI, and Machine Learning to transform petabytes of messy retail data into smart, automated decisions that revolutionized their business operations.",
       date: "October 15, 2025",
@@ -26,7 +26,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/ceos-how-walmart-used-hadoop-ai-reinvent-retail-analytics-isaac-ngugi-ttgjf/?trackingId=J0BiW1BiTryZImGLNnljEg%3D%3D",
     },
     {
-      title: "CEO: How Apple Turned Big Data Privacy into Its Competitive Superpower",
+      title: "Dear CEOs: How Apple Turned Big Data Privacy into Its Competitive Superpower",
       description:
         "A deep dive into how Apple transformed user privacy from a regulatory headache into a global market advantage — setting a new gold standard for ethical tech leadership.",
       date: "October 14, 2025",
@@ -36,7 +36,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/ceo-how-apple-turned-big-data-privacy-its-competitive-isaac-ngugi-8amnf/?trackingId=ozMV1wzMSN2uB4bc%2Fpx94w%3D%3D",
     },
     {
-      title: "CEOs: Agentic AI Your Secret Weapon For Scaling Your SMEs",
+      title: "Dear CEOs: Agentic AI Your Secret Weapon For Scaling Your SMEs",
       description:
         "How small and medium businesses can use Agentic AI to automate repetitive workflows, boost efficiency, and scale operations affordably using frameworks like LangChain and Salesforce Agentforce.",
       date: "October 5, 2025",
@@ -46,7 +46,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/ceos-agentic-ai-your-secret-weapon-scaling-smes-isaac-ngugi-lgcaf/?trackingId=6RQ3gptSS660cAom%2FewO9Q%3D%3D",
     },
     {
-      title: "Why SMEs Should Implement a Chat-PDF Tool",
+      title: "Dear CEOs: Why SMEs Should Implement a Chat-PDF Tool",
       description:
         "A breakdown of how small and medium-sized businesses can use AI-powered Chat-PDF systems to speed up decision-making, improve document management, and cut operational inefficiencies.",
       date: "September 11, 2025",
@@ -56,7 +56,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/why-smes-should-implement-chat-pdf-tool-isaac-ngugi-jbezf/?trackingId=g23HmwmcQFC7d47LLaKXRQ%3D%3D",
     },
     {
-      title: "Chat with OpenAI: SME Fast AI Assistant",
+      title: "Dear CEOs: Chat with OpenAI: SME Fast AI Assistant",
       description:
         "A hands-on walkthrough on how SMEs can connect to OpenAI’s API, safely manage keys, build chatbots with unique personalities, and understand response metadata to power AI-driven tools.",
       date: "September 21, 2025",
@@ -66,7 +66,7 @@ const Articles = () => {
       link: "https://www.linkedin.com/pulse/chat-openai-sme-fast-ai-assistant-isaac-ngugi-iuruf/?trackingId=1XRVty4ZQe%2BRZ%2FdXszqknA%3D%3D",
     },
     {
-      title: "AI Agents and How to Build Them",
+      title: "Dear CEOs: AI Agents and How to Build Them",
       description:
         "A deep dive into how AI agents work — from sensing and reasoning to acting — and how small businesses can use them to automate fraud detection, customer insights, and more.",
       date: "September 24, 2025",
@@ -114,10 +114,16 @@ const Articles = () => {
                   </Badge>
                 ))}
               </div>
-              <Button className="gradient-primary">
-                Read Article
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <a
+                href={articles[0].link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="gradient-primary">
+                  Read Article
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -127,10 +133,14 @@ const Articles = () => {
           <h2 className="text-3xl mb-8">Recent Posts</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {articles.slice(1).map((article, index) => (
-              <Card
+              <a
                 key={index}
-                className="shadow-medium hover-lift cursor-pointer transition-smooth animate-fade-in-up"
+                href={article.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
               >
+              <Card className="shadow-medium hover-lift cursor-pointer transition-smooth animate-fade-in-up">
                 <CardHeader>
                   <Badge variant="outline" className="w-fit mb-3">
                     {article.category}
@@ -158,6 +168,7 @@ const Articles = () => {
                   </div>
                 </CardContent>
               </Card>
+              </a>
             ))}
           </div>
         </div>

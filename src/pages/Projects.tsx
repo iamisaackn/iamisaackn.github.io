@@ -12,6 +12,7 @@ interface Project {
   outcome: string;
   technologies: string[];
   category: string;
+  link?: string;
 }
 
 const Projects = () => {
@@ -28,6 +29,7 @@ const Projects = () => {
       "Improved early detection of heart failure risk, enabling proactive and data-driven healthcare interventions.",
     technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
     category: "Healthcare Analytics",
+    link: "https://github.com/iamisaackn/IKN-Heart-Failure-Prediction",
     },
     {
       title: "Thyroid Risk Analysis and Prediction",
@@ -40,6 +42,7 @@ const Projects = () => {
         "Enhanced diagnostic accuracy and optimized patient treatment recommendations through predictive insights.",
       technologies: ["Python", "R", "Scikit-learn", "XGBoost", "Seaborn"],
       category: "Medical Data Science",
+      link: "https://github.com/iamisaackn/IKN-Thyroid-Risk-Prediction",
     },
     {
       title: "Fleet Management Systems (FMS): A Case Study of Verizon Connect in Health",
@@ -52,6 +55,7 @@ const Projects = () => {
         "Improved healthcare delivery efficiency, cost optimization, and infrastructure readiness while addressing challenges in training, system adoption, and operational costs.",
       technologies: ["SQL", "Power BI", "Tableau", "Python"],
       category: "Data Analytics & Logistics",
+      link: "https://www.researchgate.net/publication/386086740_FLEET_MANAGEMENT_SYSTEMS_A_CASE_STUDY_OF_VERIZON_CONNECT_IN_HEALTH",
     },
     {
       title: "InsightsAI (Intelligent Business Document Analysis Tool)",
@@ -64,6 +68,7 @@ const Projects = () => {
         "A fully functional web app that allows business users to query operational data in plain English, generating concise, actionable insights without manual analysis.",
       technologies: ["Python", "LangChain", "FAISS", "HuggingFace", "Streamlit", "Groq LLaMA"],
       category: "Artificial Intelligence",
+      link: "https://github.com/iamisaackn/InsightsAI-ChatPdf",
     },
     {
       title: "ChatDoc (Context Aware Document QA Chatbot)",
@@ -76,6 +81,7 @@ const Projects = () => {
         "A functional web chatbot that retrieves and summarizes relevant document information, improving business insight extraction and decision efficiency.",
       technologies: ["Python", "LangChain", "FAISS", "Groq LLaMA", "Streamlit", "HuggingFace"],
       category: "Machine Learning",
+      link: "https://github.com/iamisaackn/ChatDoc",
     },
     {
     title: "Real Estate Management System",
@@ -88,6 +94,7 @@ const Projects = () => {
       "Delivered a secure, automated database management system that optimizes property tracking, improves operational efficiency, and enables data-driven decision-making for real estate businesses.",
     technologies: ["MySQL", "SQL", "Advanced SQL", "Power BI", "VS Code", "Git"],
     category: "Database Systems",
+    link: "https://github.com/Kirbit04/Real-Estate-Management-system/tree/IsaacNgugi1049049",
     },
     {
       title: "Seed Bank Management System",
@@ -100,6 +107,7 @@ const Projects = () => {
         "A centralized system that streamlines agricultural data management, enhances transparency in seed distribution, and supports efficient tracking of institutional transactions.",
       technologies: ["MySQL", "PHP", "HTML", "CSS", "SQL", "JavaScript"],
       category: "Database Management & Web Systems",
+      link: "https://github.com/iamisaackn/Seed-Bank-Management-System",
     },
     {
     title: "AI-Fashion-Image-Classification",
@@ -112,6 +120,7 @@ const Projects = () => {
       "Achieved 90% accuracy across multiple fashion categories. Identified improvement areas for better precision using advanced architectures and real-time deployment feedback.",
     technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Scikit-learn", "Streamlit"],
     category: "Computer Vision & Deep Learning",
+    link: "https://github.com/iamisaackn/AI-Fashion-Image-Classification",
     },
     {
       title: "AI-Driven Plant Disease Detection System (PlantPatrol)",
@@ -124,6 +133,7 @@ const Projects = () => {
         "Achieved 95% accuracy in plant disease classification. Empowered farmers through real-time disease detection, reduced pesticide reliance, and improved food security outcomes.",
       technologies: ["Python", "TensorFlow", "Keras", "OpenCV", "Streamlit", "WhatsApp API"],
       category: "Agricultural AI & Image Recognition",
+      link: "https://github.com/iamisaackn/AI-Driven-Plant-Disease-Detection-System",
     },
     {
       title: "Box Office Movies Analysis: EDA and Linear Regression Project",
@@ -138,6 +148,7 @@ const Projects = () => {
         "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Tableau", "Jupyter Notebook",
       ],
       category: "Data Analysis & Predictive Modeling",
+      link: "https://github.com/Gladwellchebelyon/GROUP7_BOX_OFFICE_MOVIES_ANALYSIS/tree/IsaacNgugi",
     },
     {
       title: "Predictive Analytics for Waterpoint Operational Status in Tanzania",
@@ -152,6 +163,7 @@ const Projects = () => {
         "Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter Notebook", "Random Forest", "Logistic Regression"
       ],
       category: "Predictive Analytics & Water Resource Optimization",
+      link: "https://github.com/iamisaackn/Predictive-Analytics-for-Waterpoint-Operational-Status-in-Tanzania",
     },
     {
       title: "Twitter Sentiment Analysis",
@@ -164,6 +176,7 @@ const Projects = () => {
         "Achieved 86.7% accuracy using Logistic Regression. Identified key sentiment indicators and class imbalances in user feedback. Provided actionable insights for improving customer satisfaction and brand strategies.",
       technologies: ["Python", "Scikit-learn", "NLTK", "TF-IDF", "Pandas", "Matplotlib", "LIME"],
       category: "Natural Language Processing & Sentiment Analysis",
+      link: "https://github.com/MONISH254/Twitter_Sentiment_Analysis/tree/Isaac",
     },
     {
       title: "Company Management System",
@@ -178,6 +191,7 @@ const Projects = () => {
         "C#", ".NET", "Entity Framework Core", "MySQL", "XAMPP", "Visual Studio", "HTML", "CSS", "JavaScript"
       ],
       category: "Enterprise Software & Database Systems",
+      link: "https://github.com/iamisaackn/CompanyManagementSystem",
     },
   ];
 
@@ -186,9 +200,9 @@ const Projects = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl mb-4">Featured Projects</h1>
+          <h1 className="text-4xl md:text-5xl mb-4">Turning Data into Business Growth</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Impactful data science solutions delivered across industries
+            Impactful Data & AI solutions delivered across industries
           </p>
         </div>
 
@@ -205,7 +219,17 @@ const Projects = () => {
                   <Badge variant="outline" className="text-xs">
                     {project.category}
                   </Badge>
-                  <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-muted-foreground hover:text-primary transition-colors"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                    </a>
+                  )}
                 </div>
                 <CardTitle className="text-xl mb-2">{project.title}</CardTitle>
                 <CardDescription className="flex items-center gap-1 text-sm">
@@ -243,6 +267,16 @@ const Projects = () => {
                     <Badge>{selectedProject.region}</Badge>
                   </div>
                   <DialogTitle className="text-2xl">{selectedProject.title}</DialogTitle>
+                  {selectedProject.link && (
+                    <a
+                      href={selectedProject.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary underline text-sm"
+                    >
+                      View Project ↗
+                    </a>
+                  )}
                   <DialogDescription className="text-base pt-2">
                     {selectedProject.goal}
                   </DialogDescription>
@@ -274,6 +308,21 @@ const Projects = () => {
             )}
           </DialogContent>
         </Dialog>
+
+        {/*Closing Section*/}
+        <div className="text-center mt-20">
+          <h2 className="text-2xl font-semibold mb-2">Let’s Turn Your Data into Strategy</h2>
+          <p className="text-muted-foreground mb-4">
+            Whether you’re a startup or SME, I help you uncover the insights hidden in your data.
+          </p>
+          <a
+            href="mailto:isaackngugi.ds@gmail.com"
+            className="px-6 py-3 bg-primary text-white rounded-xl hover:bg-primary/90 transition"
+          >
+            Work With Me
+          </a>
+        </div>
+
       </div>
     </div>
   );
