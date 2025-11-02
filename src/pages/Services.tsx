@@ -27,6 +27,17 @@ const Services = () => {
       ],
     },
     {
+      icon: <BarChart3 className="h-8 w-8 text-primary" />,
+      title: "Website Design & Development",
+      purpose: "Build modern, fast, and functional websites that represent your brand and support business growth.",
+      offerings: [
+        "Static websites: simple, elegant, and responsive sites for brand visibility (no database).",
+        "Semi-dynamic websites: with basic CMS or forms that let you edit content easily.",
+        "Interactive / database-driven apps: full web apps with logins, dashboards, and real-time data.",
+        "Ongoing support & maintenance: security updates, content edits, backups, and hosting support."
+      ],
+    },
+    {
       icon: <Bot className="h-8 w-8 text-primary" />,
       title: "AI Automation & Chatbot Systems",
       purpose: "Automate customer engagement, service, and internal workflows with intelligent AI tools.",
