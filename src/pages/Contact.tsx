@@ -36,9 +36,9 @@ const Contact = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl mb-4">Let’s Build Data-Driven Growth Together</h1>
+          <h1 className="text-4xl md:text-5xl mb-4">Let’s Build Smarter, Data-Driven Businesses</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            I bridge the gap between raw data and real business impact. Let’s turn your data into strategy, insights, and growth.
+            IKN Analytics partners with organizations to transform raw data into intelligence, automation, and growth. Let’s start the conversation.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
           <Card className="shadow-large animate-fade-in-up">
             <CardHeader>
               <CardTitle className="text-2xl">Let’s Talk Business</CardTitle>
-              <CardDescription>Share your challenge, I’ll reply within 24 hours.</CardDescription>
+              <CardDescription>Share your goals or challenges — we will respond within 24 hours.</CardDescription>
             </CardHeader>
             <CardContent>
               <form 
@@ -56,7 +56,7 @@ const Contact = () => {
                 className="space-y-6"
               >
                 <div className="space-y-2">
-                  <Label htmlFor="name">Name</Label>
+                  <Label htmlFor="name">Full Name</Label>
                   <Input
                     id="name"
                     name="name"
@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email</Label>
+                  <Label htmlFor="email">Business Email</Label>
                   <Input
                     id="email"
                     name="email"
@@ -77,11 +77,11 @@ const Contact = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Project Brief or Inquiry</Label>
                   <Textarea
                     id="message"
                     name="message"
-                    placeholder="Describe your project or problem.."
+                    placeholder="Tell us about your project, data needs, or consulting request..."
                     rows={6}
                     required
                   />
@@ -146,7 +146,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Location</CardTitle>
+                    <CardTitle className="text-lg">Head Office</CardTitle>
                     <CardDescription>Nairobi, Kenya</CardDescription>
                   </div>
                 </div>
@@ -156,11 +156,11 @@ const Contact = () => {
             {/* Availability */}
             <Card className="shadow-medium bg-primary text-primary-foreground">
               <CardContent className="pt-6">
-                <h3 className="font-semibold mb-2 text-lg">Availability</h3>
+                <h3 className="font-semibold mb-2 text-lg">Consulting Availability</h3>
                 <p className="text-sm opacity-90">
-                  I’m currently open for consulting, partnerships, and freelance projects. 
-                  Whether you need a data analyst to uncover insights, a data scientist to build predictive models, 
-                  or an AI engineer to automate processes. I help SMEs make smarter, faster decisions through data.
+                  IKN Analytics is open for collaborations, enterprise consulting, and strategic partnerships.  
+                  Whether you need advanced analytics, AI automation, or business intelligence solutions —  
+                  our team is ready to help your organization grow smarter, faster, and more securely.
                 </p>
               </CardContent>
             </Card>

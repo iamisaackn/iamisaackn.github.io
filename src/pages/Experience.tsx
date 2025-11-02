@@ -3,88 +3,87 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Briefcase } from "lucide-react";
 
 const Experience = () => {
-  const experiences = [
+  const engagements = [
     {
-      title: "Data Analyst Intern",
-      company: "Presta Technologies Ltd",
+      title: "Data Analytics & Automation",
+      client: "Presta Technologies Ltd",
       location: "Nairobi, Kenya",
       period: "May 2025 - Aug 2025",
       highlights: [
-        "Collected, cleaned, and analyzed financial and CRM data using Zoho DataPrep and SQL.",
-        "Designed and automated 10+ data reports, linking APIs to LLM workflows with Amazon Bedrock.",
-        "Improved reporting speed by 40% and data accuracy by 25% through pipeline optimization.",
-        " Built dashboards supporting faster data-driven lending decisions across departments.",
-        "Collaborated with the AI team to integrate LLM insights into Presta whatsapp chat bot."
+        "Designed and automated analytics workflows using SQL, Zoho DataPrep, and AWS services.",
+        "Developed 10+ API-connected data pipelines linking financial and CRM systems for real-time insights.",
+        "Increased reporting speed by 40% and reduced manual data errors by 25%.",
+        "Built BI dashboards that improved lending decision cycles across multiple departments.",
+        "Integrated LLM-powered insights into client-facing chatbots, enhancing customer engagement efficiency."
       ],
     },
     {
-      title: "Community Lead",
-      company: "Innovation Hub CUEA",
+      title: "Innovation & Community Development",
+      client: "Innovation Hub CUEA",
       location: "Nairobi, Kenya",
       period: "Oct 2024 - Apr 2025",
       highlights: [
-        "Led a team of 4 to enhance student engagement and startup development.",
-        "Supported 24 student-led startups improve their Market Viable Products through data driven feedback.",
-        "Managed digital platforms (LinkedIn, WhatsApp, Instagram) reaching 1,000+ students."
+        "Facilitated digital transformation for 24 student-led startups through data-driven market validation.",
+        "Implemented analytics frameworks that tracked product performance and customer feedback.",
+        "Increased online community engagement by over 1,000 users through strategic platform optimization."
       ],
     },
     {
-      title: "Data Science Lead",
-      company: "– Google Developer Group CUEA Chapter",
+      title: "AI & Machine Learning Capacity Building",
+      client: "Google Developer Group – CUEA Chapter",
       location: "Nairobi, Kenya",
       period: "May 2023 - Oct 2024",
       highlights: [
-        "Organized and taught 5 hands-on ML workshops with 100+ student participants.",
-        "Supervised 3 student data projects, including sentiment analysis and predictive modeling.",
-        "Increased student project submissions for competitions by 50% through mentorship.",
-        "Implemented GitHub collaboration for club projects, raising team efficiency by 30%.",
-        "Trained 20+ members on Python, data visualization, and machine learning basics."
+        "Conducted 5+ AI and machine learning workshops, training over 100 emerging developers.",
+        "Supervised predictive analytics and sentiment modeling projects for student startups.",
+        "Introduced collaborative GitHub workflows that improved project delivery speed by 30%.",
+        "Supported competition readiness, increasing participation and project submissions by 50%.",
+        "Developed AI learning roadmaps for technical clubs, fostering long-term skills growth."
       ],
     },
   ];
 
-  const skills = {
+  const capabilities = {
     technical: [
-    "Data Analysis & Visualization: Excel, Power BI, Tableau, Google Data Studio, Python (Pandas, NumPy, Matplotlib, Seaborn), R",
-    "Database Management: SQL, NoSQL, PostgreSQL, MySQL, MongoDB, Oracle, SQLite, Data Warehousing, ETL, dbt, Apache Airflow",
-    "Programming & Development: Python, R, JavaScript, Bash, REST APIs, FastAPI, Microservices, Git, GitHub Actions",
-    "Machine Learning & Statistics: Scikit-learn, TensorFlow, PyTorch, Keras, XGBoost, LightGBM, Statsmodels, Predictive Modeling, A/B Testing",
-    "AI & Deep Learning: NLP (SpaCy, NLTK, HuggingFace), LangChain, Vector Databases (FAISS, Pinecone, Chroma), Generative AI, LLMs, Prompt Engineering, AI Agents, RAG, AI Chatbots, AI PDF Readers, MCP Systems",
-    "Big Data & Cloud: Apache Spark, Hadoop, Databricks, Snowflake, BigQuery, AWS, Azure, GCP, Docker, Kubernetes, Cloud-Native Architecture, Streaming Data (Kafka, Flink)",
-    "MLOps & Deployment: MLflow, Weights & Biases, Model Deployment, Feature Engineering, Experiment Tracking, Version Control for ML, AIOps",
-    "Data Governance & Security: Data Modeling, Data Cleaning, Data Wrangling, Data Pipelines, Data Ethics, Privacy Compliance (GDPR/ISO), Data Security",
-    "Specializations: Reinforcement Learning, Predictive Analytics, Business Intelligence, Automation, Decision Support Systems"
+      "Data Analytics & Visualization: Power BI, Tableau, Google Data Studio, Python (Pandas, Matplotlib), R",
+      "Database Management: SQL, PostgreSQL, MySQL, MongoDB, Data Warehousing, ETL, Apache Airflow",
+      "AI & Machine Learning: Scikit-learn, TensorFlow, PyTorch, XGBoost, LLMs, NLP, LangChain, RAG Systems",
+      "Cloud & Big Data: AWS, GCP, Azure, Databricks, Snowflake, Docker, Kubernetes, Streaming Data (Kafka)",
+      "MLOps & Automation: MLflow, Weights & Biases, Model Deployment, Feature Engineering, CI/CD",
+      "Business Intelligence: Predictive Analytics, Performance Dashboards, Forecasting Models",
+      "Data Governance: Privacy Compliance (GDPR/ISO), Security, Ethics, Data Lifecycle Management"
     ],
-    soft: [
-      "Leadership: Guides and motivates technical teams to deliver results under tight deadlines.",
-      "Communication: Explains complex technical concepts clearly to both technical and business audiences.",
-      "Analytical Thinking: Breaks down complex data problems into actionable insights and strategies.",
-      "Problem Solving: Uses logic, algorithms, and creativity to design efficient, scalable solutions.",
-      "Collaboration: Works seamlessly across data, product, and business teams to achieve shared goals.",
-      "Project Management: Plans, tracks, and delivers projects with clear milestones and accountability.",
-      "Adaptability: Quickly learns new tools and frameworks in fast-changing tech environments.",
-      "Time Management: Prioritizes tasks effectively to balance coding, research, and deployment work.",
-      "Critical Thinking: Evaluates data and models objectively to ensure accuracy and reliability.",
-      "Innovation: Brings fresh, experimental approaches to AI, automation, and product optimization.",
-      "Decision-Making: Balances data-driven insights with practical business judgment.",
+    strategic: [
+      "Leadership: Guides cross-functional teams to deliver measurable business outcomes.",
+      "Communication: Simplifies technical data into actionable business insights.",
+      "Analytical Thinking: Translates raw data into growth and performance metrics.",
+      "Problem Solving: Designs efficient, scalable data-driven systems.",
+      "Collaboration: Partners with product, finance, and operations teams to align strategy.",
+      "Project Management: Executes projects with clear milestones and ROI tracking.",
+      "Innovation: Develops AI-based tools to streamline operations and boost productivity.",
+      "Decision-Making: Integrates data intelligence into executive and board-level strategy."
     ],
   };
 
   return (
     <div className="min-h-screen py-16 bg-gradient-hero">
       <div className="container-custom">
+        
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl mb-4">Experience That Drives Results</h1>
+          <h1 className="text-4xl md:text-5xl mb-4">
+            Proven Experience. Real Business Impact.
+          </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Every role has sharpened how I turn data into growth engines from startups to fintech.
+            IKN Analytics partners with organizations to transform data into strategy — driving smarter,
+            faster, and more sustainable growth.
           </p>
         </div>
 
-        {/* Timeline */}
+        {/* Engagements */}
         <div className="max-w-4xl mx-auto mb-20">
           <div className="space-y-8">
-            {experiences.map((exp, index) => (
+            {engagements.map((eng, index) => (
               <Card key={index} className="shadow-medium hover-lift animate-fade-in-up">
                 <CardHeader>
                   <div className="flex items-start justify-between flex-wrap gap-4">
@@ -93,23 +92,23 @@ const Experience = () => {
                         <Briefcase className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <CardTitle className="text-2xl mb-1">{exp.title}</CardTitle>
+                        <CardTitle className="text-2xl mb-1">{eng.title}</CardTitle>
                         <CardDescription className="text-base">
-                          {exp.company} • {exp.location}
+                          {eng.client} • {eng.location}
                         </CardDescription>
                       </div>
                     </div>
                     <Badge variant="outline" className="text-sm">
-                      {exp.period}
+                      {eng.period}
                     </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
-                    {exp.highlights.map((highlight, i) => (
+                    {eng.highlights.map((point, i) => (
                       <li key={i} className="flex items-start gap-3">
                         <span className="text-primary mt-1.5">•</span>
-                        <span className="text-foreground/80">{highlight}</span>
+                        <span className="text-foreground/80">{point}</span>
                       </li>
                     ))}
                   </ul>
@@ -119,22 +118,24 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
+        {/* Capabilities */}
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl mb-12 text-center">Skills & Expertise</h2>
-          
+          <h2 className="text-3xl md:text-4xl mb-12 text-center">
+            Core Capabilities
+          </h2>
+
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Technical Skills */}
+            {/* Technical */}
             <Card className="shadow-medium">
               <CardHeader>
-                <CardTitle className="text-2xl">Technical Skills</CardTitle>
+                <CardTitle className="text-2xl">Technical Expertise</CardTitle>
                 <CardDescription>
-                  Technology is how I execute strategy — these are my core tools.
+                  The technologies and frameworks powering data intelligence solutions.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {skills.technical.map((skill, index) => (
+                  {capabilities.technical.map((skill, index) => (
                     <Badge key={index} variant="secondary" className="px-3 py-1.5 text-sm">
                       {skill}
                     </Badge>
@@ -143,17 +144,17 @@ const Experience = () => {
               </CardContent>
             </Card>
 
-            {/* Soft Skills */}
+            {/* Strategic */}
             <Card className="shadow-medium">
               <CardHeader>
-                <CardTitle className="text-2xl">Soft Skills</CardTitle>
+                <CardTitle className="text-2xl">Strategic Expertise</CardTitle>
                 <CardDescription>
-                  How I think, lead, and collaborate.
+                  The mindset and leadership that translate analytics into action.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {skills.soft.map((skill, index) => (
+                  {capabilities.strategic.map((skill, index) => (
                     <Badge key={index} className="gradient-primary px-3 py-1.5 text-sm">
                       {skill}
                     </Badge>
@@ -164,11 +165,10 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Closing Section */}
+        {/* Closing */}
         <div className="text-center mt-20 text-lg text-muted-foreground italic">
-          Your business already has the data. I’ll help you use it to grow faster, smarter, and stronger.
+          At IKN Analytics, we don’t just analyze data — we transform it into business advantage.
         </div>
-
       </div>
     </div>
   );

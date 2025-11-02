@@ -313,13 +313,13 @@ const Projects = () => {
         <div className="text-center mt-20">
           <h2 className="text-2xl font-semibold mb-2">Let’s Turn Your Data into Strategy</h2>
           <p className="text-muted-foreground mb-4">
-            Whether you’re a startup or SME, I help you uncover the insights hidden in your data.
+            Whether you’re a startup or SME, We help you uncover the insights hidden in your data.
           </p>
           <a
             href="mailto:isaackngugi.ds@gmail.com"
             className="px-6 py-3 bg-primary text-white rounded-xl hover:bg-primary/90 transition"
           >
-            Work With Me
+            Work With Us
           </a>
         </div>
 

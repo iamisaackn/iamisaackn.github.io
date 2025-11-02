@@ -13,8 +13,8 @@ const Navbar = () => {
     { name: "Services", path: "/services" },
     { name: "Experience", path: "/experience" },
     { name: "Education", path: "/education" },
-    { name: "Projects", path: "/projects" },
-    { name: "Articles", path: "/articles" },
+    { name: "Case Studies", path: "/projects" },
+    { name: "Insights", path: "/articles" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -24,10 +24,14 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border shadow-soft">
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
+          
           {/* Brand */}
           <Link to="/" className="flex items-center space-x-2">
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Isaac K. Ngugi
+              IKN Analytics
+            </span>
+            <span className="hidden sm:block text-xs text-muted-foreground font-medium">
+              Data · AI · Business Intelligence
             </span>
           </Link>
 

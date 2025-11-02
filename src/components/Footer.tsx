@@ -8,11 +8,12 @@ const Footer = () => {
     <footer className="bg-secondary border-t border-border">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Isaac K. Ngugi</h3>
-            <p className="text-muted-foreground text-sm">
-              Data Scientist | AI Engineer
+            <h3 className="text-lg font-bold mb-4">IKN Analytics</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed">
+              Data, AI & Business Intelligence Consulting
               <br />
               Nairobi, Kenya
             </p>
@@ -22,19 +23,34 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <div className="flex flex-col space-y-2">
-              <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-smooth">
+              <Link
+                to="/services"
+                className="text-sm text-muted-foreground hover:text-primary transition-smooth"
+              >
                 Services
               </Link>
-              <Link to="/experience" className="text-sm text-muted-foreground hover:text-primary transition-smooth">
-                Experience
+              <Link
+                to="/insights"
+                className="text-sm text-muted-foreground hover:text-primary transition-smooth"
+              >
+                Insights
               </Link>
-              <Link to="/projects" className="text-sm text-muted-foreground hover:text-primary transition-smooth">
-                Projects
+              <Link
+                to="/case-studies"
+                className="text-sm text-muted-foreground hover:text-primary transition-smooth"
+              >
+                Case Studies
               </Link>
-              <Link to="/articles" className="text-sm text-muted-foreground hover:text-primary transition-smooth">
-                Articles
+              <Link
+                to="/about"
+                className="text-sm text-muted-foreground hover:text-primary transition-smooth"
+              >
+                About Us
               </Link>
-              <Link to="/contact" className="text-sm text-muted-foreground hover:text-primary transition-smooth">
+              <Link
+                to="/contact"
+                className="text-sm text-muted-foreground hover:text-primary transition-smooth"
+              >
                 Contact
               </Link>
             </div>
@@ -42,7 +58,7 @@ const Footer = () => {
 
           {/* Social */}
           <div>
-            <h3 className="text-lg font-bold mb-4">Connect</h3>
+            <h3 className="text-lg font-bold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a
                 href="https://github.com/iamisaackn"
@@ -79,20 +95,20 @@ const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                  href="https://www.facebook.com/iamisaackn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-smooth"
-                  aria-label="Facebook"
-                >
-                  <Facebook className="h-5 w-5" />
+                href="https://www.facebook.com/iamisaackn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-smooth"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {currentYear} Isaac Kinyanjui Ngugi. All rights reserved.</p>
+          <p>© {currentYear} IKN Analytics. All rights reserved.</p>
         </div>
       </div>
     </footer>
