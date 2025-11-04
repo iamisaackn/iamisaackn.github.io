@@ -16,13 +16,13 @@ const Profile = () => {
                 <span className="text-sm text-muted-foreground">Nairobi, Kenya</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6">
-                IKN Analytics
+                Isaac Kinyanjui Ngugi
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-                Data, AI & Business Intelligence Consulting
+                Data & AI Consultant | Business Growth Partner
               </p>
               <p className="text-lg text-foreground/80 mb-8 max-w-xl italic">
-                We help businesses unlock growth by transforming raw data into
+                I help businesses unlock growth by transforming raw data into
                 intelligent strategies, automation, and insights that drive smarter decisions.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -154,7 +154,7 @@ const Profile = () => {
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">2+</div>
+              <div className="text-4xl font-bold text-primary mb-2">1+</div>
               <div className="text-sm text-muted-foreground">Years of Experience</div>
             </div>
             <div className="text-center">
@@ -162,7 +162,7 @@ const Profile = () => {
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">10+</div>
+              <div className="text-4xl font-bold text-primary mb-2">5+</div>
               <div className="text-sm text-muted-foreground">Technologies Used</div>
             </div>
             <div className="text-center">

@@ -5,7 +5,7 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const engagements = [
     {
-      title: "Data Analytics & Automation",
+      title: "Data Analyst Intern",
       client: "Presta Technologies Ltd",
       location: "Nairobi, Kenya",
       period: "May 2025 - Aug 2025",
@@ -18,7 +18,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "Innovation & Community Development",
+      title: "Community Lead",
       client: "Innovation Hub CUEA",
       location: "Nairobi, Kenya",
       period: "Oct 2024 - Apr 2025",
@@ -29,7 +29,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "AI & Machine Learning Capacity Building",
+      title: "Data Science Lead",
       client: "Google Developer Group – CUEA Chapter",
       location: "Nairobi, Kenya",
       period: "May 2023 - Oct 2024",

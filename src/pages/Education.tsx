@@ -8,7 +8,7 @@ const Education = () => {
       degree: "Bachelor of Science in Computer Science",
       institution: "The Catholic University of Eastern Africa",
       location: "Nairobi, Kenya",
-      period: "Sept 2022 - Oct 2026",
+      period: "Sept 2022 - Sept 2026",
       description:
         "Focused on Data Science, Big Data Security, and Applied Machine Learning — equipping me to design secure, data-driven systems for enterprise intelligence.",
       achievements: [
