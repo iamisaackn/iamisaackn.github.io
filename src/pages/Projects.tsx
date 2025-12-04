@@ -20,6 +20,28 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
+      title: "TutorMCP – AI Tutor",
+      region: "Global",
+      goal: "Provide AI-powered learning tools through the Model Context Protocol (MCP) with real-time streaming and agent compatibility.",
+      methodology:
+        "Built on MCP with a Gradio interface and API. Provides four interactive tools: concept explanation, text summarization, flashcard generation, and quiz creation. Uses streaming responses for low-latency interaction between AI agents and human learners.",
+      outcome:
+        "Delivers a smooth educational experience, enables automated tutoring via MCP agents, and offers an extensible framework for future tools such as code explainers or diagram generators.",
+      technologies: ["Python 3.10+","Gradio","OpenAI API","httpx/requests","dotenv", "Model Context Protocol (MCP)"],
+      category: "AI Education Toolkit",
+      link: "https://github.com/iamisaackn/AI-TutorMCP",
+    },
+    {
+      title: "Predictive Modeling of Bank Marketing Campaigns",
+      region: "Kenya",
+      goal: "Develop a predictive classification model to determine whether a banking client will subscribe to a term deposit, enabling smarter and more efficient marketing campaigns.",
+      methodology: "Used the Bank Marketing Dataset from the UCI Machine Learning Repository. Performed data preprocessing, exploratory data analysis, feature engineering, and trained multiple classification models including Logistic Regression, Decision Tree, Random Forest, XGBoost, and SVM. Evaluated models using accuracy, precision, recall, and F1-score, and applied cross-validation for robustness.",
+      outcome: "Identified key demographic, financial, and campaign-related factors that influence subscription likelihood. Found that Decision Tree achieved the highest accuracy (~70%), while Logistic Regression and Random Forest delivered balanced performance. Provided data-driven recommendations to optimize marketing campaigns and improve ROI.",
+      technologies: ["R Programming", "Machine Learning", "Data Visualization", "Statistical Modeling"],
+      category: "Data Science – Classification",
+      link: "https://github.com/iamisaackn/DS_Avengers_Bank_Marketing",
+    },
+    {
     title: "Heart Failure Analysis and Prediction",
     region: "Global Healthcare Datasets",
     goal: "Predict heart failure risk based on patient medical records.",

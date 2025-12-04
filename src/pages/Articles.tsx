@@ -6,6 +6,46 @@ import { Button } from "@/components/ui/button";
 const Articles = () => {
   const articles = [
     {
+      title: "Dear CEOs: Why Your Software Projects Fail",
+      description:
+        "A breakdown of why company software projects collapse and how proper risk management saves time, money, and sanity.",
+      date: "November 28, 2025",
+      readTime: "8 min read",
+      category: "Tech Leadership",
+      tags: ["Risk Management", "Software Projects", "Business Strategy", "Tech Leadership", "AI Consulting"],
+      link: "https://www.linkedin.com/pulse/dear-ceos-why-your-software-projects-fail-isaac-ngugi-lbaqf/?trackingId=YPd%2FsX9yRfy54A3M3lXGJQ%3D%3D",
+    },
+    {
+      title: "SME Data Classification & Governance",
+      description:
+        "A practical breakdown of how small and medium businesses should discover, classify, govern, and protect their data—covering risk assessment, regulations, ownership roles, and lifecycle policies.",
+      date: "November 23, 2025",
+      readTime: "5 min read",
+      category: "Data Governance",
+      tags: ["SME", "Data Protection", "Data Strategy", "Risk Management"],
+      link: "https://www.linkedin.com/pulse/sme-data-classification-governance-isaac-ngugi-wyyxf/?trackingId=Je8wUmFkRBaGvO%2FBJRslow%3D%3D",
+    },
+    {
+      title: "Dear CEOs: The Real Money Isn’t in Chatbots, It’s in AI-Powered Automation",
+      description:
+        "Why CEOs should stop worshipping chatbots and focus on real revenue: AI-powered automation, optimisation, and ML-driven fraud detection.",
+      date: "November 5, 2025",
+      readTime: "5 min read",
+      category: "AI & Automation",
+      tags: ["AI", "Automation", "Fintech", "Machine Learning", "Business Strategy"],
+      link: "https://www.linkedin.com/pulse/ceo-real-money-isnt-chatbots-its-ai-powered-automation-isaac-ngugi-lquif/?trackingId=sFzrH3%2BZT4K5Y8ScNam8Vg%3D%3D",
+    },
+    {
+      title: "Dear CEOs: How AI + MCPs Are Rewriting Insurance",
+      description:
+        "A breakdown of how AI, Large Language Models, and the Model Context Protocol are transforming insurance by taming chaotic data, automating claims, detecting fraud, and boosting efficiency.",
+      date: "October 28, 2025",
+      readTime: "4 min read",
+      category: "AI & Insurance",
+      tags: ["AI","MCP","LLMs","Insurance Innovation","Digital Transformation"],
+      link: "https://www.linkedin.com/pulse/dear-ceos-how-ai-mcps-rewriting-insurance-isaac-ngugi-yeyef/?trackingId=6CAJPla6Qpeahrhcscr%2BFg%3D%3D",
+    },
+    {
       title: "Dear CEOs: Math Isn’t the Enemy, It's the Blueprint of AI",
       description:
         "An honest reflection on why math isn’t just theory but the backbone of every AI system—from DeepMind’s AlphaGo to the predictive models driving modern business intelligence.",
